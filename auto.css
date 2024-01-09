@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: #d9d9d9;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+    margin-top: 10%;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 430px;
+    height: 260px;
+    background: #fff;
+}
+
+.container-register {
+    margin: 0 auto;
+    width: 430px;
+    height: 325px;
+    background: #fff;
+}
+
+.form-input {
+    width: 340px;
+    height: 50px;
+    background: #828282;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #d9d9d9;
+    padding-left: 15px;
+    transition: all .5s ease;
+}
+
+.form-input::placeholder{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #d9d9d9;
+}
+
+.form-input:focus{
+    border-radius: 5px;
+    border: #dfd9d9 5px dashed;
+    transition: all .5s ease;
+}
+
+.form-label:first-child {
+    margin-right: 6px;
+}
+
+.form-label {
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    background: #50B84E;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 24px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    background: #0a460a;
+    transition: all .5s ease;
+}
+
+a {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #50B84E;;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+a:active {
+    text-decoration: none;
+    color: #155717;
+}
+
+a:hover {
+    color: #0dec2b;
+    transition: all .5s ease;
+}

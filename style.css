@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    height: 38px;
+    width: 100%;
+    background: #2B2020;
+}
+
+.header-logo {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.header-nav {
+    list-style: none;
+    display: inline-block;
+    margin: 1px 0 11px 1300px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+    color: #7a7979;
+    transition: all .3s ease;
+}
+
+header img {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#about {
+    display: grid;
+    place-items: center;
+    background-image: url(img/imgonline-com-ua-Resize-1mbdhH5M0hrI5fUf.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.about-block-text {
+    color: #fff;
+    padding: 10px 33px;
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.container-about {
+    background-color: black;
+    width: 307px;
+    height: 63px;
+}
+
+#abonement {
+    display: flex;
+    gap: 100px;
+    place-items: center;
+    justify-content: center;
+    background-image: url(img/staraia_biblioteka_dizajn_interer_11139_1920x1080\ 1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.abonements {
+    width: 200px;
+    height: 350px;
+}
+
+.abonements:first-child  {
+    background-color: #42A8AE;
+}
+
+
+
+.abonements:nth-child(2) {
+    background-color: #E09550;
+}
+
+.abonements:nth-child(3) {
+    background-color: #D34E4E;
+}
+
+.abonements:nth-child(4) {
+    background-color: #D9D9D9;
+}
+
+.abonement-text {
+    display: grid;
+    place-items: center;
+    font-family: 'Inter' ,serif;
+    font-size: 32px;
+    margin: 0 auto;
+}
+
+.abonement-list {
+    font-family: 'Roboto' ,serif;
+    font-size: 24px;   
+}
+
+.abonements-button {
+    margin-left: 40px;
+    font-family: 'Roboto', serif;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 8px 16px;
+}
+
+.abonements-button:hover {
+    color: #615c5c;
+    transition: all .3s ease;
+}
+
+#top-books {
+    display: flex;
+    place-items: center;
+    gap: 200px;
+    justify-content: center;
+    background-image: url(img/a70ada64-81e6-54f1-b7ed-c073c306ba71\ 1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.top-books-image {
+    transform: scale(2);
+    transition: all .5s ease;
+}
+
+.top-books-image:hover{
+    transform: scale(1.7);
+    transform: rotate(-20deg);
+    filter: saturate(40%);
+    filter: blur(100px);
+    
+}
+
+#shedule {
+    display: flex;
+    gap: 350px;
+    place-items: center;
+    justify-content: center;
+    background-image: url(img/pngtree-an-old-style-library-with-shelves-full-of-books-image_2679112\ 1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+}
+
+.shedule-text {
+    height: 300px;
+    width: 330px;
+    padding: 10px 50px 50px 50px;
+    color: #FFC93D;
+    background: #948d8d;
+    font-family: 'Roboto', serif;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.shedule-image {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    place-items: center;
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+}
+
+.footer-image {
+    max-width: 40px;
+    max-height: 40px;
+}
